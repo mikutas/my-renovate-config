@@ -2,7 +2,8 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "aquaproj"
+        "aquaproj",
+        "renovate"
       ],
       "automerge": true,
       "extends": [
