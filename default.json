@@ -1,4 +1,9 @@
 {
+  "extends": [
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":timezone(Asia/Tokyo)"
+  ],
   "packageRules": [
     {
       "matchPackagePatterns": [
