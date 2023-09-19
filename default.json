@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "aquaproj"
+      ],
+      "automerge": true,
+      "extends": [
+        "schedule:weekends"
+      ]
+    }
+  ]
+}
