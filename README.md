@@ -1,0 +1,1 @@
+# my-renovate-config
