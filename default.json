@@ -1,4 +1,5 @@
 {
+  "configMigration": true,
   "extends": [
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
