@@ -16,12 +16,22 @@
       "extends": [
         "schedule:weekends"
       ]
+    },
+    {
+      "labels": [
+        "Helm"
+      ],
+      "matchManagers": [
+        "helmv3"
+      ]
     }
   ],
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["Dockerfile"],
+      "fileMatch": [
+        "Dockerfile"
+      ],
       "matchStrings": [
         "distroless\\/base-debian(?<currentValue>(?<major>\\d+)?)"
       ],
