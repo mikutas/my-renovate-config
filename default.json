@@ -24,6 +24,10 @@
       "labels": [
         "Helm"
       ]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "labels": ["UPDATE-MAJOR"]
     }
   ],
   "customManagers": [
