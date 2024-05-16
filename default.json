@@ -10,6 +10,7 @@
     {
       "matchPackagePatterns": [
         "aquaproj",
+        "aws/aws-cli",
         "renovate"
       ],
       "automerge": true,
