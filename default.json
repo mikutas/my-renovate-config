@@ -23,6 +23,7 @@
         "helmfile"
       ],
       "labels": [
+        "dependencies",
         "Helm"
       ]
     },
