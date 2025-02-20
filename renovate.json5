@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "configMigration": true,
+  "extends": [
+    "github>aquaproj/aqua-renovate-config#2.2.1",
+    // https://aquaproj.github.io/docs/products/aqua-renovate-config/#aqua-renovate-config-preset
+    "github>aquaproj/aqua-renovate-config:aqua-renovate-config#2.7.3(default\\.json)"
+  ]
+}
