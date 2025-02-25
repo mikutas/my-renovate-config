@@ -9,41 +9,45 @@
   ],
   "packageRules": [
     {
+      "automerge": true,
+      "extends": [
+        "schedule:weekends"
+      ],
       "matchPackageNames": [
         "/aquaproj/",
         "/aws\\/aws-cli/",
         "/renovate/"
-      ],
-      "automerge": true,
-      "extends": [
-        "schedule:weekends"
       ]
     },
     {
-      "matchManagers": [
-        "helmfile"
-      ],
       "labels": [
         "dependencies",
         "Helm"
+      ],
+      "matchManagers": [
+        "helmfile"
       ]
     },
     {
-      "matchUpdateTypes": ["major"],
-      "labels": ["UPDATE-MAJOR"]
+      "labels": [
+        "UPDATE-MAJOR"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ]
     }
   ],
   "customManagers": [
     {
       "customType": "regex",
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "debian",
       "fileMatch": [
         "Dockerfile"
       ],
       "matchStrings": [
         "distroless\\/base-debian(?<currentValue>(?<major>\\d+)?)"
-      ],
-      "datasourceTemplate": "docker",
-      "depNameTemplate": "debian"
+      ]
     }
   ]
 }

@@ -8,12 +8,13 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": [
-        "/aquaproj/"
-      ],
       "automerge": true,
       "extends": [
+        // https://docs.renovatebot.com/presets-schedule/#scheduleweekends
         "schedule:weekends"
+      ],
+      "matchPackageNames": [
+        "/aquaproj/"
       ]
     }
   ]
