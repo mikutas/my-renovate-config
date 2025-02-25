@@ -9,10 +9,10 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "aquaproj",
-        "aws/aws-cli",
-        "renovate"
+      "matchPackageNames": [
+        "/aquaproj/",
+        "/aws\\/aws-cli/",
+        "/renovate/"
       ],
       "automerge": true,
       "extends": [
