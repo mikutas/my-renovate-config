@@ -1,0 +1,13 @@
+# Renovateの"PR is not ready for merge (branch status is yellow)"を回避するためのダミー
+name: always skipped
+on:
+  pull_request:
+
+jobs:
+  dummy:
+    name: dummy
+    runs-on: ubuntu-latest
+    if: ${{ false }}
+    steps:
+      - name: Pass
+        run: echo ok
