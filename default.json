@@ -9,6 +9,13 @@
   ],
   "packageRules": [
     {
+      "matchDepNames": [
+        "docker.io/rancher/k3s",
+        "kubectl"
+      ],
+      "allowedVersions": "<=1.33"
+    },
+    {
       "automerge": true,
       "extends": [
         "schedule:weekends"
