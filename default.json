@@ -10,7 +10,6 @@
   "packageRules": [
     {
       "matchDepNames": [
-        "docker.io/rancher/k3s",
         "kubectl"
       ],
       "allowedVersions": "<=1.34"
