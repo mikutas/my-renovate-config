@@ -11,6 +11,7 @@
   "packageRules": [
     {
       "matchDepNames": [
+        "kindest/node",
         "kubectl"
       ],
       "allowedVersions": "<=1.35"
