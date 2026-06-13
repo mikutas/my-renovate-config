@@ -6,7 +6,7 @@
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
     ":timezone(Asia/Tokyo)",
-    "github>aquaproj/aqua-renovate-config#2.12.1"
+    "github>aquaproj/aqua-renovate-config#2.13.0"
   ],
   "packageRules": [
     {
