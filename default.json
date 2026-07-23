@@ -57,8 +57,8 @@
       "customType": "regex",
       "datasourceTemplate": "docker",
       "depNameTemplate": "debian",
-      "fileMatch": [
-        "Dockerfile"
+      "managerFilePatterns": [
+        "/Dockerfile/"
       ],
       "matchStrings": [
         "distroless\\/base-debian(?<currentValue>(?<major>\\d+)?)"
