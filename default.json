@@ -8,6 +8,8 @@
     ":timezone(Asia/Tokyo)",
     "github>aquaproj/aqua-renovate-config#2.13.0"
   ],
+  "minimumReleaseAge": "1 day",
+  "minimumReleaseAgeBehaviour": "timestamp-optional",
   "packageRules": [
     {
       "matchDepNames": [
