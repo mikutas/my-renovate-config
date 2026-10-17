@@ -32,10 +32,11 @@
       "matchPackageNames": [
         "/aquaproj/",
         "/aws\\/aws-cli/",
-	"/awslim/",
-	"/pup/",
+        "/awslim/",
+        "/golangci-lint/",
+	      "/pup/",
         "/renovate/",
-	"/tfcmt/"
+	      "/tfcmt/"
       ]
     },
     {
