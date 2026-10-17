@@ -34,6 +34,7 @@
         "/aws\\/aws-cli/",
         "/awslim/",
         "/golangci-lint/",
+        "/just/",
 	      "/pup/",
         "/renovate/",
 	      "/tfcmt/"
