@@ -35,9 +35,10 @@
         "/awslim/",
         "/golangci-lint/",
         "/just/",
-	      "/pup/",
+        "/odigos/",
+        "/pup/",
         "/renovate/",
-	      "/tfcmt/"
+        "/tfcmt/"
       ]
     },
     {
